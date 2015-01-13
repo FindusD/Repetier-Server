@@ -1,0 +1,17 @@
+Hi there,
+I have just installed the actual version 0.50.2 of Repetier-Server on my Raspberry. Installation was really easy and on the first view it seems to run properly, including internet access and user management.
+The server starts directly when I boot the raspberry.
+
+But now I have found a problem, which I cannot solve.
+
+When I get access to it from another machine with it's network address and port number 3344 everything is ok, the server keeps running and I can work with it.
+
+But when I try to get access directly on the raspberry by using the preinstalled webbrowser and enter the network address like above or "localhost:3344" the server stops at once.
+The answer from the command "/etc/init.d/RepetierServer status" is:
+"[FAIL] Repetier-Server is not running".
+
+How can I access to the Repetier-Server UI directly on the raspberry? Or isn't it possible?
+
+Hope anyone can help me
+Cu
+Klaus 
